@@ -122,5 +122,20 @@ Length of list: 1000
 Total Similarities: 19437052
 
 Valgrind
-
+==252368== Memcheck, a memory error detector
+==252368== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==252368== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==252368== Command: ./pt2.exe
+==252368== 
+Input: input.txt
+Length of list: 1000
+Total Similarities: 19437052==252368== 
+==252368== HEAP SUMMARY:
+==252368==     in use at exit: 0 bytes in 0 blocks
+==252368==   total heap usage: 8 allocs, 8 frees, 22,160 bytes allocated
+==252368== 
+==252368== All heap blocks were freed -- no leaks are possible
+==252368== 
+==252368== For lists of detected and suppressed errors, rerun with: -s
+==252368== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 */
