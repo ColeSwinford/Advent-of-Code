@@ -116,4 +116,22 @@ int main(){
 Input: input.txt
 Length of list: 1000
 Total Distance: 1882714
+
+Valgrind
+==232571== Memcheck, a memory error detector
+==232571== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==232571== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==232571== Command: ./main.exe
+==232571== 
+Input: input.txt
+Length of list: 1000
+Total Distance: 1882714==232571== 
+==232571== HEAP SUMMARY:
+==232571==     in use at exit: 0 bytes in 0 blocks
+==232571==   total heap usage: 9 allocs, 9 frees, 26,160 bytes allocated
+==232571== 
+==232571== All heap blocks were freed -- no leaks are possible
+==232571== 
+==232571== For lists of detected and suppressed errors, rerun with: -s
+==232571== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 */
