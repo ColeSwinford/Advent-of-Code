@@ -14,7 +14,7 @@ int getLen(const char* filename){
     FILE *fileP;
     char line[100];
     int length = 0;
-
+ 
     // open file
     fileP = fopen(filename, "r");
     if(fileP == NULL){
